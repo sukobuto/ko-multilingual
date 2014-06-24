@@ -16,8 +16,8 @@
                 placeholderSyntax:
                     ko.utils.extend(
                         {
-                            start: '{',
-                            end: '}'
+                            start: '{{',
+                            end: '}}'
                         },
                         allBindings.get('placeholderSyntax')
                     )
